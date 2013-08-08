@@ -35,12 +35,12 @@
     
     <preference name="auto-hide-splash-screen" value="true" />
         
-    <preference name="splash-screen-duration" value="2000" />
+    <preference name="splash-screen-duration" value="4000" />
     
     
     <!-----------------------white list testing-------------------------->    
     
-    <access origin="http://www.web4uonline.com" browserOnly="true" />    
+    <access origin="*" />    
 
     
     
