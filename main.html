@@ -12,6 +12,10 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="description" content="">
         
+        
+
+        
+        
 
 
  <!-- CSS Files -->
@@ -114,7 +118,9 @@ $(":jqmData(role='collapsible')", $.mobile.activePage).click(function(e) {
         
         
 </head>
-    <body>
+    <body style="background-color:#0a6137 !important; background-image:none !important;">
+ 
+    
     
 
 <!--
@@ -122,6 +128,11 @@ $(":jqmData(role='collapsible')", $.mobile.activePage).click(function(e) {
 								BEGIN MENU
 //////////////////////////////////////////////////////////////////////////////////
 
+-->
+
+
+
+<!----------------------HIDING DIV FOR LOADING SCREEEN------------------>
 
 
 
@@ -132,7 +143,7 @@ $(":jqmData(role='collapsible')", $.mobile.activePage).click(function(e) {
 
 
         
-    	<!-- Menu Begin -->
+    	<!-- Menu Begin --
     	
     	
     	
@@ -239,7 +250,7 @@ if( ua.indexOf("Android") >= 0 )
                     
                     <li><a href="main.html" onclick="stayLoop()"  class="contentLink" data-transition="none">Join E-mail List<span class="icon"></span></a></li>
                     
-                    -->
+                  
 
 					 <li><a href="#app"  class="contentLink" data-transition="none">About the App<span class="icon"></span></a></li>
 
@@ -427,7 +438,7 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
     
     <li><a href="#bible" onclick="var ref = window.open('https://www.bible.com/bible/42/jhn.1.cpdv', '_blank');" data-transition="none">Bible</a></li>
     
-   <li><a href="" onclick="var ref = window.open('http://www.usccb.org/beliefs-and-teachings/what-we-believe/catechism/catechism-of-the-catholic-church/epub/index.cfm', '_blank');"  data-transition="none">Catechism</a></li>
+   <li><a href="" onclick="var ref = window.open('http://www.usccb.org/beliefs-and-teachings/what-we-believe/catechism/catechism-of-the-catholic-church/epub/index.cfm', '_system');"  data-transition="none">Catechism</a></li>
    
    <li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/lauds.htm', '_blank');"  data-transition="none">Morning Prayer</a></li>
 				<li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/vespers.htm', '_blank');"  data-transition="none">Evening Prayer</a></li>
@@ -481,7 +492,7 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
 
 
 
-<ul data-role="listview" data-inset="true" data-theme="c">
+<ul data-role="listview" data-inset="false" data-theme="c">
 	<li data-role="list-divider">Discernment Resources</li>
     <li><a href="#discernment" data-transition="slide" data-prefetch="true">Discernment Basics</a></li>
     <li><a href="#questions" data-transition="slide" data-prefetch="true">General Questions</a></li>
@@ -504,7 +515,7 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
     
     <li><a href="#bible" onclick="var ref = window.open('https://www.bible.com/bible/42/jhn.1.cpdv', '_blank');" data-transition="none">Bible</a></li>
     
-   <li><a href="" onclick="var ref = window.open('http://www.usccb.org/beliefs-and-teachings/what-we-believe/catechism/catechism-of-the-catholic-church/epub/index.cfm', '_blank');"  data-transition="none">Catechism</a></li>
+   <li><a href="" onclick="var ref = window.open('http://www.usccb.org/beliefs-and-teachings/what-we-believe/catechism/catechism-of-the-catholic-church/epub/index.cfm', '_system');"  data-transition="none">Catechism</a></li>
    
    <li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/lauds.htm', '_blank');"  data-transition="none">Morning Prayer</a></li>
 				<li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/vespers.htm', '_blank');"  data-transition="none">Evening Prayer</a></li>
@@ -3224,16 +3235,20 @@ dataType: "json", success: function(sundayReadings)
     
     </div>  <!--end page role--->  
         
-        <!-- *********************************************************
-       	  END App
-        ********************************************************* -->
+       
+        
+        
+        
 
 
 <!--///////////////////////////////////////////////////////////////////////////////////////-->
 <!--/////////////////////////////////////END SUNDAY READINGS/////////////////////////////////////////-->			
 <!--///////////////////////////////////////////////////////////////////////////////////////-->
 
-        
+
+
+
+   
         
         
         
@@ -3244,7 +3259,11 @@ dataType: "json", success: function(sundayReadings)
                                       END OF PAGES
   ////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////-->      
-        
+ 
+
+
+
+       
         
 
 

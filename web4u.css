@@ -37,6 +37,12 @@ h3 {text-shadow:0px 0px 0px 0px !important; }
 
 #menu ul li a:link, #menu ul li a:visited {border-bottom:solid #33414a 1px; color:#FFFFFF; font-size:14px; font-weight:500; text-decoration:none; width:165px; display:block; padding:10px 0px 10px 10px; text-shadow:0px 1px 1px #000}
 
+
+/*removes colord background for slide menu will have to remove this if adding back the slide menu */
+body{background:#0a6137; background-image:none !Important;}
+
+
+
  a:active {background-color:#EEEEEE; color:#333333 !important;} 
 .activex {background-color:#EEEEEE !important; color:#333333 !important;}
  
@@ -44,7 +50,7 @@ h3 {text-shadow:0px 0px 0px 0px !important; }
 .pagesbg {
 
 
-background-image:url('http://www.web4uonline.com/pdxvocations/img2/stripe.jpg') !important; background-repeat:repeat;  
+background-image:url('img2/stripe.jpg') !important; background-repeat:repeat;  
  
 }
 
@@ -173,3 +179,25 @@ filter:alpha(opacity=98); /* For IE8 and earlier */
 
 .callout p, .callout h1 {text-shadow:none !Important;}
 
+
+/* fixing hover state on listview scroll */
+
+*.ui-listview *.ui-btn-up-c,
+*.ui-listview *.ui-btn-down-c,
+*.ui-listview *.ui-btn-hover-c
+  {
+
+	border: 1px solid #0a6137 /*{c-bup-border}*/;
+	background: #0a6137 /*{c-bup-background-color}*/;
+	font-weight: bold;
+	color: #ffffff /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #444444 /*{c-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #0b6f3f /*{c-bup-background-start}*/), to( #08522e /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #0b6f3f /*{c-bup-background-start}*/, #08522e /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #0b6f3f /*{c-bup-background-start}*/, #08522e /*{c-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #0b6f3f /*{c-bup-background-start}*/, #08522e /*{c-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #0b6f3f /*{c-bup-background-start}*/, #08522e /*{c-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #0b6f3f /*{c-bup-background-start}*/, #08522e /*{c-bup-background-end}*/);
+
+
+}

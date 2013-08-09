@@ -2,14 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.web4uonline.pdxouisvocations"
-        version   = "1.13">
+        version   = "1.16">
         
         
         
     <name>PDXvocations</name> 
 
     <description>
-     A guide for discerning your vocation. Includes prayers, questions, videos, scripture, reflections, news, and more. 
+  <!--   A guide for discerning your vocation. Includes prayers, questions, videos, scripture, reflections, news, and more. -->
+  
+  same class for hover and press on listview buttons to improve scrolling <br>
+  inset = false on all page to test that </br>
+  tried to remove grey background on menu </br>
 
 
 </description>
