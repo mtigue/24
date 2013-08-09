@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.web4uonline.pdxouisvocations"
-        version   = "1.16">
+        id        = "com.web4uonline.pdxvocations"
+        version   = "1.17">
         
         
         
@@ -13,9 +13,7 @@
     <description>
  
   
-  same class for hover and press on listview buttons to improve scrolling 
-  inset = false on all page to test that 
-  tried to remove grey background on menu 
+  added page loading screen, added listview headers
 
 
 </description>

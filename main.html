@@ -14,6 +14,55 @@
         
         
 
+
+<!-----begin siteloader---------->        
+        <script>
+window.onload = function() {
+
+	
+
+
+   document.getElementById("siteLoader2").style.display = "none";
+   document.getElementById("hider2").style.display = "block";
+}
+</script>
+
+
+
+
+<!------------BEGIN SITELOADER-------------->
+
+<div id="siteLoader2">
+
+<div style="position: fixed;
+  top: 40%;
+  lefts: 50%; width:100%; text-align:center;
+  margin-tops: -125px;
+  margin-lefts: -64px;">
+  
+  <img style="display:none;" src="images/logo.png">  
+
+   <br>
+   
+    <div style="text-align:center; font-family:Arial, Helvetica, sans-serif; display:none; color:#FFFFFF; width:100%; font-weight:bold; margin-top:1.3em; line-height:1.5em; 
+    text-shadow: 2px 2px #333333;">
+   Archdiocese of Portland Oregon <br>
+   Office of Vocations
+  <br><br>
+
+		
+
+  
+  </div><!---end text-->
+  
+   <img src="images/loader2.gif">  
+  
+   </div>
+
+  </div> 
+  
+<!---end siteloader-->
+
         
         
 
@@ -118,7 +167,7 @@ $(":jqmData(role='collapsible')", $.mobile.activePage).click(function(e) {
         
         
 </head>
-    <body style="background-color:#0a6137 !important; background-image:none !important;">
+    <body style="background-color:#0a6137 !important; background-image:none !important;" id="hider2">
  
     
     
@@ -294,7 +343,7 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
   	
           
             <!-- Header Begin -->
-            <div data-role="header" class="header" data-theme="h">
+            <div data-role="header"  data-theme="d">
             
      
 
@@ -378,8 +427,10 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
 
 <img src="img2/mass-page.jpg" alt="img" class="align-center imgbox fixwidth">
 
-<h2>Discernment Resources</h2>
-<ul data-role="listview" data-inset="true" data-theme="c">
+
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:20px;">
+	<li data-role="list-divider">Discernment Resources</li>
+
     <li><a href="#discernment" data-transition="slide" data-prefetch="true">Discernment Basics</a></li>
     <li><a href="#questions" data-transition="slide" data-prefetch="true">General Questions</a></li>
     <li><a href="#seminary" data-transition="slide" data-prefetch="true">Seminary</a></li>
@@ -430,8 +481,8 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
 
 <img src="img2/prayer.jpg" alt="img" class="align-center imgbox fixwidth">
 
-<h2>Prayer and Faith</h2>
-<ul data-role="listview" data-inset="true" data-theme="c">
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:20px;">
+	<li data-role="list-divider">Faith & Prayer</li>
     <li><a href="#prayers" data-transition="slide" data-prefetch="true">Prayers</a></li>
     <li><a href="#today-readings" data-transition="slide" data-prefetch="true">Today's Readings</a></li>
     <li><a href="#sunday-readings" data-transition="slide" data-prefetch="true">Sunday's Readings</a></li>
@@ -492,7 +543,7 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
 
 
 
-<ul data-role="listview" data-inset="false" data-theme="c">
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:00px;">
 	<li data-role="list-divider">Discernment Resources</li>
     <li><a href="#discernment" data-transition="slide" data-prefetch="true">Discernment Basics</a></li>
     <li><a href="#questions" data-transition="slide" data-prefetch="true">General Questions</a></li>
@@ -507,7 +558,9 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
 
 
 
-<ul data-role="listview" data-inset="true" data-theme="c">
+
+
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:30px;">
 	<li data-role="list-divider">Faith & Prayers</li>
     <li><a href="#prayers" data-transition="slide" data-prefetch="true">Prayers</a></li>
     <li><a href="#today-readings" data-transition="slide" data-prefetch="true">Today's Readings</a></li>
@@ -522,7 +575,7 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
 				<li><a href="" onclick="var ref = window.open('http://www.universalis.com/USA.Sunday/compline.htm', '_blank');"  data-transition="none">Night Prayer</a></li>
    
    
-    <li><a href="" onclick="var ref = window.open('http://www.web4uonline.com/pdxvocations/videos.html', '_blank');"  data-transition="none">Videos</a></li>
+    
 
 </ul>
 
@@ -531,7 +584,7 @@ window.plugins.childBrowser.showWebPage('http://www.web4uonline.com/louis/14/sig
 
 
 
-<ul data-role="listview" data-inset="true" data-theme="c">
+<ul data-role="listview" data-inset="true" data-theme="c" style="margin-top:30px;">
 	<li data-role="list-divider">More</li>
     <li><a href="#news" data-transition="slide" data-prefetch="true">News & Events</a></li>
     <li><a href="#contact" data-transition="slide" data-prefetch="true">Contact</a></li>
