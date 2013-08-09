@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.web4uonline.pdxvocations"
-        version   = "1.18">
+        version   = "1.19">
         
         
         
@@ -12,7 +12,7 @@
 
     <description>
  
-remove content role tags from listview
+removed prefetch
 
 
 
