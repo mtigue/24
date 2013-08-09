@@ -7,13 +7,15 @@
         
         
     <name>PDXvocations</name> 
+    
+     <!--   A guide for discerning your vocation. Includes prayers, questions, videos, scripture, reflections, news, and more. -->
 
     <description>
-  <!--   A guide for discerning your vocation. Includes prayers, questions, videos, scripture, reflections, news, and more. -->
+ 
   
-  same class for hover and press on listview buttons to improve scrolling <br>
-  inset = false on all page to test that </br>
-  tried to remove grey background on menu </br>
+  same class for hover and press on listview buttons to improve scrolling 
+  inset = false on all page to test that 
+  tried to remove grey background on menu 
 
 
 </description>
