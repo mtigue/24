@@ -1,4 +1,5 @@
-﻿document.write("<div data-role='footer' classs='nav-glyphish' data-position='fixed' data-id='footer' data-theme='a' style='border:0px !important;'>");
+﻿
+document.write("<div data-role='footer' classs='nav-glyphish' data-position='fixed' data-id='footer' data-theme='a' style='border:0px !important;'>");
 
 document.write("<div data-role='navbar' classs='nav-glyphish' data-grid='d'>");
 

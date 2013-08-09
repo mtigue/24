@@ -24,9 +24,17 @@ h3 {text-shadow:0px 0px 0px 0px !important; }
 #menu {background-color:#0a6137 !Important; border:0px solid #FFFFFF !Important; }
 
 
-#menu ul li a:hover {background-color:#EEEEEE; color:#000000 !Important; text-shadow:0px 0px 0px 0px !important; }
+/* #menu ul li a:hover {background-color:#EEEEEE; color:#000000 !Important; text-shadow:0px 0px 0px 0px !important; } 
 
-#menu ul li a {border-color:#08522e !important; }
+ a:active {background-color:#EEEEEE; color:#333333 !important;} 
+.activex {background-color:#EEEEEE !important; color:#333333 !important;}
+
+
+
+
+
+*/
+ #menu ul li a {border-color:#08522e !important; }
 
 
 
@@ -43,9 +51,7 @@ body{background:#0a6137; background-image:none !Important;}
 
 
 
- a:active {background-color:#EEEEEE; color:#333333 !important;} 
-.activex {background-color:#EEEEEE !important; color:#333333 !important;}
- 
+  
  
 .pagesbg {
 
