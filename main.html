@@ -87,7 +87,7 @@ window.onload = function() {
         <!--web4u css-->
  <!--       <link rel="stylesheet" href="assets/css/web4u.css"> <!---some glitch..something in here is important for slide out navigation icons--->
       <link rel="stylesheet" href="web4u.css"><!---something in here makes those icons go away--->
-     <link rel="stylesheet" href="http://www.web4uonline.com/pdxvocations/web4u-out.css">
+   <link rel="stylesheet" href="http://www.web4uonline.com/pdxvocations/web4u-out.css">
 
        <!-- phonegap javascripts -->
         <script src="phonegap.js"></script>
@@ -3052,7 +3052,7 @@ dataType: "json", success: function(todayReadings)
 }
 </script>  
 
-
+<button onclick="gettodayReadings()" value="Update Readings">Update Readings</button>
 <script type="text/javascript">gettodayReadings();</script>
 <div id="resultstodayReadings">getting data...internet connection required</div>
 <!----------------------END EXTERNALFETCH--------------------->
@@ -3123,7 +3123,7 @@ dataType: "json", success: function(sundayReadings)
 }
 </script>  
 
-
+<button onclick="getsundayReadings()" value="Update Readings">Update Readings</button>
 <script type="text/javascript">getsundayReadings();</script>
 <div id="resultssundayReadings">getting data...internet connection required</div>
 <!----------------------END EXTERNALFETCH--------------------->
