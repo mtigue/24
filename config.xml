@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.web4uonline.pdxvocations"
-        version   = "1.21">
+        version   = "1.23">
         
         
         
@@ -12,9 +12,8 @@
 
     <description>
  
-footer back on main page.
-last version did fix hover problem.
-list 
+ 
+ round buttons, launch hopefully
 
 
 
