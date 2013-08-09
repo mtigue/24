@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.web4uonline.pdxvocations"
-        version   = "1.17">
+        version   = "1.18">
         
         
         
@@ -12,8 +12,8 @@
 
     <description>
  
-  
-  added page loading screen, added listview headers
+remove content role tags from listview
+
 
 
 </description>
