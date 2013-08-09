@@ -2644,7 +2644,7 @@ function getVideos() {
 
  $.ajax({
   type: "GET",
-  timeout: 1000,
+//  timeout: 1000,
   cache: false, 	
   url: "http://web4uonline.com/pdxvocations/videos.php",
 //  data: "", 
@@ -2792,7 +2792,7 @@ function getNews() {
   url: "http://web4uonline.com/pdxvocations/news.php",
 //  data: "", 
    dataType: "json",
-   timeout:8000,
+   timeout:15000,
   success: function(news) 
   {
  document.getElementById("resultsNews").innerHTML=news.news;  
@@ -2876,7 +2876,7 @@ function getContact() {
 
  $.ajax({
   type: "GET",
-  timeout: 8000,
+  timeout: 15000,
   cache: false, 	
   url: "http://web4uonline.com/pdxvocations/contact.php",
 //  data: "", 
@@ -2960,7 +2960,7 @@ function getApp() {
 
  $.ajax({
   type: "GET",
-  timout: 8000,
+  timout: 15000,
   cache: false, 	
   url: "http://web4uonline.com/pdxvocations/app.php",
 //  data: "", 
@@ -3044,7 +3044,7 @@ function getApp() {
 function gettodayReadings() 
 {$.ajax({type: "GET",cache: false, 
 url: "http://web4uonline.com/pdxvocations/todayReadings.php",
-timeout: 8000,
+timeout: 15000,
 //  data: "", 
 dataType: "json", success: function(todayReadings) 
 {document.getElementById("resultstodayReadings").innerHTML=todayReadings.todayReadings;}
@@ -3115,7 +3115,7 @@ dataType: "json", success: function(todayReadings)
 function getsundayReadings() 
 {$.ajax({type: "GET",cache: false, 
 url: "http://web4uonline.com/pdxvocations/sundayReadings.php",
-timeout: 8000,
+timeout: 15000,
 //  data: "", 
 dataType: "json", success: function(sundayReadings) 
 {document.getElementById("resultssundayReadings").innerHTML=sundayReadings.sundayReadings;}
