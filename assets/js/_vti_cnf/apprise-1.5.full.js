@@ -9,6 +9,6 @@ vti_syncofs_68.178.246.6\:21/pdxvocations:TW|08 Aug 2013 19:03:14 -0000
 vti_syncwith_68.178.246.6\:21/pdxvocations:TX|06 Aug 2013 00:09:58 -0000
 vti_cacheddtm:TX|06 Aug 2013 00:09:58 -0000
 vti_filesize:IR|3550
-vti_backlinkinfo:VX|24/main.html 23/main.html 14/main.html 22/main.html 22/main-working-smooth.html
+vti_backlinkinfo:VX|23/main.html 14/main.html 22/main.html 22/main-working-smooth.html
 vti_syncwith_68.178.246.6\:21/pdx2:TX|06 Aug 2013 00:09:58 -0000
 vti_syncofs_68.178.246.6\:21/pdx2:TW|08 Aug 2013 13:07:10 -0000
