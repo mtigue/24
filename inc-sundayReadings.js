@@ -79,6 +79,9 @@ sundayURL = "http://www.universalis.com/" +printSunday+ "/USA.Sunday/jsonpmass.j
 
 // document.write("<p>Sunday URL: " +sundayURL);
 
+sundayURL2 = "http://www.universalis.com/" +printSunday+ "/USA.Sunday/mass.htm";
+
+document.write(sundayURL2);
 
 document.write("<script src='" +sundayURL+ "' defer='defer'><\/script>");
 
